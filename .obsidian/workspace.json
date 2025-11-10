@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQL.md",
+                "file": "Python/Fundamentos básicos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "Fundamentos básicos"
             }
           }
         ]
@@ -74,7 +74,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,13 +181,18 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "5d2337da86fd34d4",
+  "active": "4941f23b10d4b39b",
   "lastOpenFiles": [
+    "Pasted image 20251110140914.png",
+    "Excel/Sin título.md",
+    "Python/Fundamentos básicos.md",
+    "Python",
+    "SQL/SQL.md",
+    "Excel",
     "Pasted image 20251107143048.png",
     "Pasted image 20251107142957.png",
     "Pasted image 20251107142758.png",
     "SQL/Introducción a SQL.md",
-    "SQL/SQL.md",
     "SQL/SQL",
     "SQL/Bases de datos relacionales.md",
     "Pasted image 20251107140836.png",
@@ -196,7 +202,6 @@
     "Pasted image 20251107134619.png",
     "Pasted image 20251107134324.png",
     "Pasted image 20251107134130.png",
-    "Pasted image 20251107134124.png",
     "README.md",
     "SQL"
   ]
