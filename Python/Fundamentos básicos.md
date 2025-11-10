@@ -54,4 +54,4 @@ La función input() es capaz de leer datos que fueron introducidos por el usua
 
 El programa entonces puede manipular los datos, haciendo que el código sea verdaderamente interactivo.
 
-Todos los programas **leen y procesan datos**. Un programa que no obtiene datos de entrada del usuario es un **programa sordo**.
+Todos los programas leen y procesan datos. Un programa que no obtiene datos de entrada del usuario es un programa sordo.
