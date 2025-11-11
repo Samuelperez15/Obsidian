@@ -1,0 +1,1 @@
+11 de Noviembre: Hemos dado Power Query para hacer una mejor extracción de los datos en Excel y así facilitar el manejo de estos

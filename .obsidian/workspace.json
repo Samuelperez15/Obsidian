@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Fundamentos básicos.md",
+                "file": "Diario Curso Data Analyst/Diario.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fundamentos básicos"
+              "title": "Diario"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,18 +180,20 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "4941f23b10d4b39b",
+  "active": "5d2337da86fd34d4",
   "lastOpenFiles": [
-    "Pasted image 20251110140914.png",
-    "Excel/Sin título.md",
+    "Excel/Diario curso Data Analyst.md",
+    "Diario Curso Data Analyst/Diario.md",
+    "Diario Curso Data Analyst",
+    "SQL/Introducción a SQL.md",
     "Python/Fundamentos básicos.md",
+    "Pasted image 20251110140914.png",
     "Python",
     "SQL/SQL.md",
     "Excel",
     "Pasted image 20251107143048.png",
     "Pasted image 20251107142957.png",
     "Pasted image 20251107142758.png",
-    "SQL/Introducción a SQL.md",
     "SQL/SQL",
     "SQL/Bases de datos relacionales.md",
     "Pasted image 20251107140836.png",
@@ -201,7 +202,6 @@
     "Pasted image 20251107134646.png",
     "Pasted image 20251107134619.png",
     "Pasted image 20251107134324.png",
-    "Pasted image 20251107134130.png",
     "README.md",
     "SQL"
   ]
