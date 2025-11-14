@@ -5,3 +5,5 @@
 12 de Noviembre: Continuamos con el proyecto de Excel y charla sobre Cultura Data
 
 13 de Noviembre: Charla Data Storytelling y continuación de Excel añadiendo las tablas dinamicas y los gráficos
+
+14 de Noviembre: 
