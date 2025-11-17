@@ -7,3 +7,5 @@
 13 de Noviembre: Charla Data Storytelling y continuación de Excel añadiendo las tablas dinamicas y los gráficos
 
 14 de Noviembre: Finalización y entrega del proyecto de Excel.
+
+17 de Noviembre: Clases con las RP e iniciación a Python.

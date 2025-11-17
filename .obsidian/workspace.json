@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Fundamentos básicos.md",
+                "file": "Diario Curso Data Analyst/Diario.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fundamentos básicos"
+              "title": "Diario"
             }
           }
         ],
@@ -197,9 +197,9 @@
   },
   "active": "eeddda5aa1621b06",
   "lastOpenFiles": [
+    "Python/Fundamentos básicos.md",
     "Pasted image 20251114134053.png",
     "Diario Curso Data Analyst/Diario.md",
-    "Python/Fundamentos básicos.md",
     "SQL/SQL.md",
     "SQL/Bases de datos relacionales.md",
     "SQL/Introducción a SQL.md",
@@ -217,7 +217,6 @@
     "Pasted image 20251107140523.png",
     "Pasted image 20251107134646.png",
     "Pasted image 20251107134619.png",
-    "Pasted image 20251107134324.png",
     "README.md",
     "SQL"
   ]
