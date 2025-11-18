@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diario Curso Data Analyst/Diario.md",
+                "file": "Python/Pandas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diario"
+              "title": "Pandas"
             }
           }
         ],
@@ -197,26 +197,31 @@
   },
   "active": "eeddda5aa1621b06",
   "lastOpenFiles": [
+    "Pasted image 20251118140222.png",
+    "Pasted image 20251118140204.png",
+    "Pasted image 20251118140143.png",
+    "Pasted image 20251118140124.png",
+    "Pasted image 20251118140103.png",
+    "Pasted image 20251118135931.png",
+    "Pasted image 20251118135851.png",
+    "Pasted image 20251118135802.png",
+    "Pasted image 20251118135704.png",
+    "Pasted image 20251118135542.png",
+    "Pasted image 20251118135518.png",
+    "Python/Numpy.md",
+    "Python/Pandas.md",
+    "Python/Modulo Statistics.md",
+    "Python/Tratamiento de datos.md",
     "Python/Fundamentos básicos.md",
-    "Pasted image 20251114134053.png",
-    "Diario Curso Data Analyst/Diario.md",
     "SQL/SQL.md",
     "SQL/Bases de datos relacionales.md",
     "SQL/Introducción a SQL.md",
+    "Diario Curso Data Analyst/Diario.md",
     "Excel/Diario curso Data Analyst.md",
     "Diario Curso Data Analyst",
-    "Pasted image 20251110140914.png",
     "Python",
     "Excel",
-    "Pasted image 20251107143048.png",
-    "Pasted image 20251107142957.png",
-    "Pasted image 20251107142758.png",
     "SQL/SQL",
-    "Pasted image 20251107140836.png",
-    "Pasted image 20251107140611.png",
-    "Pasted image 20251107140523.png",
-    "Pasted image 20251107134646.png",
-    "Pasted image 20251107134619.png",
     "README.md",
     "SQL"
   ]
