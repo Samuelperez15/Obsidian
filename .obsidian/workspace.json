@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Pandas.md",
+                "file": "Python/Modulo Statistics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pandas"
+              "title": "Modulo Statistics"
             }
           }
         ],
@@ -197,6 +197,8 @@
   },
   "active": "eeddda5aa1621b06",
   "lastOpenFiles": [
+    "Python/Numpy.md",
+    "Python/Pandas.md",
     "Pasted image 20251118140222.png",
     "Pasted image 20251118140204.png",
     "Pasted image 20251118140143.png",
@@ -207,9 +209,6 @@
     "Pasted image 20251118135802.png",
     "Pasted image 20251118135704.png",
     "Pasted image 20251118135542.png",
-    "Pasted image 20251118135518.png",
-    "Python/Numpy.md",
-    "Python/Pandas.md",
     "Python/Modulo Statistics.md",
     "Python/Tratamiento de datos.md",
     "Python/Fundamentos básicos.md",
