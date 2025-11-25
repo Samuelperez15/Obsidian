@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Modulo Statistics.md",
+                "file": "SQL/FUNCIÓN COUNT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modulo Statistics"
+              "title": "FUNCIÓN COUNT"
             }
           }
         ],
@@ -197,8 +197,19 @@
   },
   "active": "eeddda5aa1621b06",
   "lastOpenFiles": [
-    "Python/Numpy.md",
+    "SQL/CONSULTAS SELECT FROM, WHERE, BETWEEN, LIMIT Y ORDER BY.md",
+    "SQL/FUNCIÓN COUNT.md",
+    "SQL/Comandos update y delete.md",
+    "SQL/Comandos create, insert y alter.md",
+    "SQL/SQL.md",
+    "SQL/Introducción a SQL.md",
     "Python/Pandas.md",
+    "Python/Numpy.md",
+    "Python/Fundamentos básicos.md",
+    "Python/Tratamiento de datos.md",
+    "Python/Modulo Statistics.md",
+    "Diario Curso Data Analyst/Diario.md",
+    "SQL/Bases de datos relacionales.md",
     "Pasted image 20251118140222.png",
     "Pasted image 20251118140204.png",
     "Pasted image 20251118140143.png",
@@ -209,13 +220,6 @@
     "Pasted image 20251118135802.png",
     "Pasted image 20251118135704.png",
     "Pasted image 20251118135542.png",
-    "Python/Modulo Statistics.md",
-    "Python/Tratamiento de datos.md",
-    "Python/Fundamentos básicos.md",
-    "SQL/SQL.md",
-    "SQL/Bases de datos relacionales.md",
-    "SQL/Introducción a SQL.md",
-    "Diario Curso Data Analyst/Diario.md",
     "Excel/Diario curso Data Analyst.md",
     "Diario Curso Data Analyst",
     "Python",
