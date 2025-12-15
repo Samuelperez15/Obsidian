@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Intro a HTML.md",
+                "file": "CSS/Intro a CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro a HTML"
+              "title": "Intro a CSS"
             }
           }
         ],
@@ -199,21 +199,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Crear nueva base": false
     }
   },
   "active": "223809141adc8557",
   "lastOpenFiles": [
+    "Pasted image 20251215100140.png",
+    "Pasted image 20251215095458.png",
+    "Pasted image 20251215095051.png",
+    "HTML/Intro a HTML.md",
+    "CSS/Intro a CSS.md",
+    "CSS",
     "Pasted image 20251215094019.png",
     "Diario Curso Data Analyst/Diario.md",
-    "HTML/Intro a HTML.md",
     "HTML",
     "SQL/FUNCIÓN COUNT.md",
     "SQL/SQL Avanzado.md",
@@ -235,9 +240,6 @@
     "Pasted image 20251118140103.png",
     "Pasted image 20251118135931.png",
     "Pasted image 20251118135851.png",
-    "Pasted image 20251118135802.png",
-    "Pasted image 20251118135704.png",
-    "Pasted image 20251118135542.png",
     "Excel/Diario curso Data Analyst.md",
     "Diario Curso Data Analyst",
     "Python",
