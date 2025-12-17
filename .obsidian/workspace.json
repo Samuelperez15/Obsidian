@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Intro a CSS.md",
+                "file": "PowerBI/Introducción.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro a CSS"
+              "title": "Introducción"
             }
           }
         ],
@@ -211,11 +211,13 @@
   },
   "active": "223809141adc8557",
   "lastOpenFiles": [
+    "CSS/Intro a CSS.md",
+    "PowerBI/Introducción.md",
+    "PowerBI",
     "Pasted image 20251215100140.png",
     "Pasted image 20251215095458.png",
     "Pasted image 20251215095051.png",
     "HTML/Intro a HTML.md",
-    "CSS/Intro a CSS.md",
     "CSS",
     "Pasted image 20251215094019.png",
     "Diario Curso Data Analyst/Diario.md",
@@ -239,7 +241,6 @@
     "Pasted image 20251118140124.png",
     "Pasted image 20251118140103.png",
     "Pasted image 20251118135931.png",
-    "Pasted image 20251118135851.png",
     "Excel/Diario curso Data Analyst.md",
     "Diario Curso Data Analyst",
     "Python",
