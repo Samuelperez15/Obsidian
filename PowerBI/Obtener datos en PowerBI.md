@@ -169,4 +169,143 @@ En este ejemplo, seguirá estos pasos para conectarse a la base de datos en SQL�
     
 2. Pegue la consulta SQL en el cuadro **Instrucción SQL** y, después, seleccione **Aceptar**.
 
+![[Pasted image 20260107123611.png]]
+
+
+![[Pasted image 20260107123619.png]]
+
+1. Cuando se establezca la conexión, los datos se muestran en la ventana de vista previa.
+    
+2. Seleccione **Editar** para abrir los datos en el Editor de Power Query.
+    
+
+A continuación, siga estos pasos para crear el parámetro:
+
+1. En la pestaña **Inicio**, seleccione **Administrar parámetros** Nuevo parámetro>.
+    
+2. En la ventana **Parámetros**, cambie el nombre del parámetro predeterminado por otro más descriptivo, para que su finalidad quede clara. En este caso, cambiará el nombre por **SalesPerson**.
+    
+3. Seleccione **Texto** en la lista **Tipo** y **Cualquier valor** en la lista **Valor sugerido**.
+    
+4. Seleccione **Aceptar**.
+
+![[Pasted image 20260107123635.png]]
+
+Ahora se mostrará una consulta nueva para el parámetro que ha creado.
+
+![[Pasted image 20260107123648.png]]
+
+Ahora tendrá que ajustar el código de la consulta SQL para evaluar el nuevo parámetro:
+
+1. Haga clic con el botón derecho en **Consulta1** y seleccione **Editor avanzado**.
+    
+2. Reemplace el valor existente en la instrucción EXECUTE por una Y comercial (**&**) seguida del nombre de parámetro (**SalesPerson**), como se muestra en la imagen siguiente.
+
+![[Pasted image 20260107123704.png]]
+
+3. Asegúrese de que no se muestra ningún error en la parte inferior de la ventana y, después, seleccione **Listo**.
+    
+
+Aunque no se observa ninguna diferencia en la pantalla, Power BI ha ejecutado la consulta.
+
+4. Para confirmar que se ha ejecutado la consulta, puede ejecutar una prueba si selecciona la consulta de parámetros y escribe un valor nuevo en el cuadro **Valor actual**.
+
+![[Pasted image 20260107123732.png]]
+
+5. Es posible que aparezca un icono de advertencia junto a la consulta. En ese caso, seleccione esa consulta para ver el mensaje de advertencia, en el que se indica que se requiere permiso para ejecutar esta consulta de base de datos nativa. Seleccione **Editar permiso** y después **Ejecutar**.
+
+Cuando la consulta se ejecute correctamente, el parámetro se actualiza y muestra el nuevo valor.
+
+![[Pasted image 20260107123757.png]]
+
+6. Seleccione **Cerrar y aplicar** para volver al editor de informes.
+    
+
+Ahora puede aplicar el parámetro al informe:
+
+1. Seleccione **Editar consultas** Editar parámetros>.
+    
+2. En la ventana **Editar parámetros**, escriba un valor nuevo y seleccione **Aceptar**.
+    
+3. Seleccione **Aplicar cambios** y, después, vuelva a ejecutar la consulta nativa.
+    
+    Ahora, cuando vea los datos, verá los del nuevo valor que se ha pasado mediante el parámetro.
+
+![[Pasted image 20260107123822.png]]
+
+Ahora puede crear un informe que muestre los datos de un valor determinado cada vez. Se necesitan más pasos para mostrar los datos de varios valores al mismo tiempo.
+
+## Creación de informes dinámicos para varios valores
+
+Para proporcionar varios valores a la vez, primero debe crear una hoja de cálculo de Microsoft Excel que tenga una tabla con una sola columna que contenga la lista de valores.
+
+A continuación, use la característica **Obtener datos** de Power BI Desktop para conectarse a los datos de esa hoja de cálculo de Excel y, después, siga estos pasos:
+
+1. En la ventana **Navegador**, seleccione **Editar** para abrir los datos en el Editor de Power Query, donde verá una nueva consulta para la tabla de datos.
+![[Pasted image 20260107123844.png]]
+
+2. Cambie el nombre de la columna de la tabla por otro más descriptivo.
+    
+3. Cambie el tipo de datos de la columna a **Texto** para que coincida con el tipo de parámetro y evitar problemas de conversión de datos.
+    
+4. En la sección **Propiedades**, cambie el nombre del origen de datos por otro más descriptivo. Para este ejemplo, escriba **SalesPersonID**.
+    
+
+A continuación, tendrá que crear una función que pasará la nueva consulta **SalesPersonID** a **Consulta1**:
+
+1. Haga clic con el botón derecho en **Consulta1** y seleccione **Crear función**.
+
+![[Pasted image 20260107123905.png]]
+
+2. Escriba un nombre para la función y, después, seleccione **Aceptar**.
+
+![[Pasted image 20260107123923.png]]
+
+La nueva función aparece en el panel **Consultas**.
+
+![[Pasted image 20260107123955.png]]
+
+3. Para asegurarse de que **Consulta1** no aparece en la lista de campos del informe, lo que podría confundir a los usuarios, puede deshabilitar su carga en el informe si hace clic con el botón derecho en **Consulta1** y selecciona **Habilitar carga** (seleccionada de forma predeterminada) para deshabilitar la característica.
+
+![[Pasted image 20260107124013.png]]
+
+4. Seleccione la consulta **SalesPersonID** que ha cargado desde la hoja de cálculo de Excel y, después, en la pestaña **Agregar columna**, seleccione **Invocar función personalizada** para ejecutar la función personalizada que ha creado.
+
+![[Pasted image 20260107124031.png]]
+
+5. En la ventana **Invocar función personalizada**, seleccione la función en la lista **Consulta de función**.
+    
+
+El **nuevo nombre de columna** se actualiza automáticamente y la tabla que contiene los valores que va a pasar mediante el parámetro está seleccionada de forma predeterminada.
+
+6. Seleccione **Aceptar** y, si es necesario, ejecute la consulta nativa.
+
+![[Pasted image 20260107124048.png]]
+
+Aparece una nueva columna para la función **GetSalesFromSalesPerson** junto a la columna **SalesPersonID**.
+
+![[Pasted image 20260107124105.png]]
+
+7. Seleccione el icono de dos flechas en el encabezado de la nueva columna y active las casillas de las columnas que quiera cargar. En esta sección determina los detalles que están disponibles en el informe para cada valor (identificador de vendedor).
+    
+8. Desactive la casilla **Usar el nombre de columna original como prefijo** en la parte inferior de la pantalla, ya que no es necesario ver un prefijo con los nombres de columna en el informe.
+    
+9. Seleccione **Aceptar**.
+
+
+![[Pasted image 20260107124128.png]]
+
+Ahora debería poder ver los datos de las columnas que ha seleccionado para cada valor (identificador de vendedor).
+    
+![[Pasted image 20260107124211.png]]
+    
+10. Guarde los cambios y, después, vuelva al Editor de Power Query.
+    
+11. En la pestaña **Inicio**, seleccione **Actualizar vista previa** y, después, vuelva a ejecutar la consulta nativa (si es necesario). Debería ver las ventas de los nuevos identificadores de vendedor que ha agregado a la hoja de cálculo.
+    
+12. Seleccione **Cerrar y aplicar** para volver al editor de informes, donde va a ver los nuevos nombres de columna en el panel Campos.
+    
+
+Ahora puede empezar a crear el informe.
+
 
