@@ -109,3 +109,78 @@ Las fórmulas de columnas calculadas se evalúan utilizando el contexto de fila.
 ¿Qué afirmación sobre las medidas es correcta?
 
 Las medidas pueden hacer referencia a otras medidas directamente.
+
+
+20-
+¿Qué tipo de objeto de modelo se evalúa dentro de un contexto de filtro?
+
+Medida
+
+21-
+¿Cuál de las siguientes funciones de DAX permite usar una relación inactiva al evaluar una expresión de medida?
+
+USERELATIONSHIP
+
+22-
+¿Cuál de las siguientes afirmaciones sobre la función CALCULATE es verdadera?
+
+Modifica el contexto de filtro para evaluar una expresión determinada.
+
+23-
+En el contexto de los cálculos de modelos semánticos, ¿qué afirmación describe mejor la inteligencia del tiempo?
+
+Modificaciones de contexto de filtro con una tabla de fechas
+
+
+24-
+Está desarrollando un modelo semántico en Power BI Desktop. Acaba de agregar una tabla de fechas mediante el uso de la función CALENDARAUTO. La ha ampliado con columnas calculadas y la ha relacionado con otras tablas de modelo. ¿Qué más debería hacer para asegurarse de que los cálculos de inteligencia de tiempo de DAX funcionan correctamente?
+
+Marcar como tabla de fechas.
+
+25-
+Tiene una tabla que almacena instantáneas del saldo de cuenta para cada fecha, excluidos los fines de semana. Debe asegurarse de que la fórmula de medida solo filtre por una fecha única. Además, si no hay ningún registro en la última fecha de un período de tiempo, debe usar el saldo de cuenta más reciente. ¿Qué función de inteligencia de tiempo de DAX debería utilizar?
+
+LASTNONBLANK
+
+
+26-
+Qué función DAX no se puede utilizar en un cálculo visual?
+
+USERELATIONSHIP
+
+
+27-
+¿Qué hace el parámetro Eje de las funciones de cálculo visual?
+
+Define cómo la función de cálculo recorre la matriz visual.
+
+
+28-
+Un analista de datos está trabajando en un cálculo visual en Power BI. Quiere comparar el valor actual de una métrica con su valor anterior. ¿Qué plantilla debería usar?
+
+Frente a anterior
+
+
+29-
+Un analista de datos está trabajando en un cálculo visual y desea asegurarse de que el cálculo recorra la matriz visual fila por fila, de arriba abajo y columna por columna, de izquierda a derecha. ¿Qué valor del parámetro Axis debería utilizar el analista?
+
+
+ROWS COLUMNS
+
+
+30-
+¿Qué ventajas obtiene del análisis de los metadatos?
+
+La ventaja de analizar los metadatos es que es posible identificar claramente las incoherencias de los datos con el modelo semántico.
+
+
+31-
+¿Qué se puede conseguir al quitar las filas y columnas innecesarias?
+
+Eliminar filas y columnas innecesarias reducirá el tamaño del modelo semántico, por lo que es recomendable cargar solo los datos necesarios en el modelo semántico.
+
+
+32-
+¿Cuál de las siguientes afirmaciones sobre relaciones en Power BI Desktop es cierta?
+
+Se pueden crear relaciones entre tablas que contengan tipos de datos diferentes.
