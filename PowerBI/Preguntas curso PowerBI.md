@@ -184,3 +184,86 @@ Eliminar filas y columnas innecesarias reducirá el tamaño del modelo semántic
 ¿Cuál de las siguientes afirmaciones sobre relaciones en Power BI Desktop es cierta?
 
 Se pueden crear relaciones entre tablas que contengan tipos de datos diferentes.
+
+
+33-
+En la empresa Contoso Skateboard, Brandon diseña un informe de panel para mostrar los niveles de existencias de inventario a lo largo del tiempo. ¿Qué tipo de objeto visual de informe debe elegir Brandon para mostrar eficazmente los niveles de existencias?
+
+Gráfico de líneas
+
+
+34-
+En la empresa Contoso Skateboard, Sakura va a diseñar un informe analítico. Debe incluir un objeto visual que permita a los consumidores del informe explorar y descubrir valores de ventas detallados, por fecha y por tienda. ¿Qué tipo de objeto visual de informe debe elegir Sakura para acomodar el requisito del consumidor del informe?
+
+Matriz
+
+
+35-
+En la empresa Contoso Skateboard, James va a diseñar un informe de panel. Debe mostrar de forma destacada los valores de los ingresos de ventas, las unidades vendidas, el coste de los bienes vendidos y los beneficios, y cada valor se debe comparar con un valor objetivo. ¿Qué tipo de objeto visual de informe debe elegir James para acomodar el requisito del consumidor del informe?
+
+KPI
+
+
+36-
+¿Cuál de las siguientes funcionalidades es exclusiva del panel Filtros?
+
+Filtrado N principales
+
+37-
+¿Cuál de las siguientes funcionalidades es exclusiva de las segmentaciones?
+
+Orientación horizontal
+
+
+38-
+En la empresa Contoso Skateboard, Sally está creando un informe para mostrar las ventas a lo largo del tiempo. Sally sabe que se producen picos ocasionales en los ingresos por ventas que podrían atribuirse a muchas razones diferentes, como una campaña de marketing. Sally debe asegurarse de que los objetos visuales de apoyo proporcionen una explicación de los picos. ¿Qué tipo de objeto visual debe usar Sally?
+
+
+Un objeto visual de gráfico de líneas con detección de anomalías
+
+
+
+39-
+En la empresa Contoso Skateboard, Ash está escribiendo un informe que se distribuirá a los directores de ventas. El informe contiene algunos datos confidenciales que no deben exportarse. ¿Qué característica de diseño de informes puede configurar Ash para garantizar que los datos no se exporten?
+
+Encabezado de objeto visual
+
+
+40-
+¿Cuál es el objetivo del estado de visualización en los marcadores?
+
+Capturar la visibilidad de los objetos del informe
+
+41-
+¿Qué característica de Power BI puede aportar un análisis exhaustivo de la distribución de los datos?
+
+La característica Analizar permite al usuario comprender por qué la distribución tiene el aspecto que tiene.
+
+
+42-
+¿Cómo puede acceder al objeto visual de gráfico de series temporales?
+
+Se pueden importar gráficos de series temporales desde AppSource.
+
+
+43-
+¿Qué objeto visual se debe usar para mostrar valores atípicos?
+
+El gráfico de dispersión es la mejor opción para mostrar valores atípicos.
+
+44-
+¿Cuál de las siguientes opciones describe mejor lo que es un espacio de trabajo?
+
+Un espacio de trabajo es una ubicación o un repositorio centralizado que permite colaborar con compañeros y equipos para crear colecciones de informes, paneles, etc.
+
+
+45-
+¿Cuál de las siguientes afirmaciones sobre los espacios de trabajo en Power BI es correcta?
+
+Los colaboradores de un espacio de trabajo pueden crear, editar y eliminar contenido, pero no pueden administrar la publicación de la aplicación ni la configuración del espacio de trabajo.
+
+
+46-
+¿Cuál de las siguientes afirmaciones sobre las aplicaciones de Power BI es correcta?
+
+Con las aplicaciones en Power BI, los diseñadores pueden compartir varios elementos de contenido relacionados, lo que reduce la necesidad de compartir individualmente.
