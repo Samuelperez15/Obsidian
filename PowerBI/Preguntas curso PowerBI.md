@@ -267,3 +267,67 @@ Los colaboradores de un espacio de trabajo pueden crear, editar y eliminar conte
 ¿Cuál de las siguientes afirmaciones sobre las aplicaciones de Power BI es correcta?
 
 Con las aplicaciones en Power BI, los diseñadores pueden compartir varios elementos de contenido relacionados, lo que reduce la necesidad de compartir individualmente.
+
+47-
+¿Dónde se configuran las actualizaciones programadas del modelo semántico?
+
+Servicio Power BI
+
+48-
+¿Qué parámetros reservados configuran el inicio y el final del intervalo donde se debe realizar la actualización incremental?
+
+RangeStart y RangeEnd
+
+49-
+¿Cuál es la diferencia entre promoción y certificación cuando se respalda un modelo semántico?
+
+La promoción es de uso generalizado, mientras que la certificación necesita permisos concedidos en la configuración de inquilinos del administrador.
+
+50-
+¿Cuál es el propósito principal de la aplicación de etiquetas de confidencialidad en Power BI?
+
+Clasificar y proteger datos confidenciales en todo el ciclo de vida, incluso cuando se comparten externamente.
+
+51-
+¿Cuál de las siguientes es una ventaja clave de usar las aplicaciones de Power BI?
+
+Permiten la distribución de múltiples elementos de contenido relacionados como un solo paquete, con acceso controlado.
+
+52-
+¿Cuál es una diferencia clave entre los roles de espectador y colaborador en un espacio de trabajo de Power BI?
+
+Los espectadores solo pueden ver contenido, mientras que los colaboradores pueden crear, editar y eliminar contenido, pero no pueden publicar aplicaciones.
+
+
+53-Qué es un panel?
+
+Un lienzo de elementos de informe que se puede crear en el servicio Power BI.
+
+
+54-
+¿En qué se diferencian los informes y los paneles?
+
+En los informes, se pueden tener varias páginas; en los paneles, solo se puede tener una.
+
+
+55-
+Dónde se pueden configurar y establecer alertas de datos?
+
+Las alertas de datos solo se pueden establecer en el servicio Power BI, en objetos visuales específicos como, por ejemplo, tarjetas de KPI, medidores y tarjetas.
+
+
+56-
+¿Qué función le indicará el nombre de usuario de la persona que ha iniciado sesión en el servicio Power BI?
+
+USERPRINCIPALNAME()
+
+
+57-
+¿Dónde se puede probar la RLS mediante diferentes roles de seguridad?
+
+Tanto en Power BI Desktop como en el servicio Power BI
+
+
+58-
+
+
